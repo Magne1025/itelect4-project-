@@ -41,6 +41,6 @@ const user: User = getUser(1);
 const grade: Grade = calculateGrade(85, 100);
 const courseSummary: string = formatCourse("IT Elective 4", 3, "1st Semester");
 
-console.log(user);
-console.log(grade);
-console.log(courseSummary);
+console.log("User:", user);
+console.log("Grade:", grade);
+console.log("Course:", courseSummary);
