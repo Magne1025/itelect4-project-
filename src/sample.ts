@@ -1,17 +1,7 @@
 // sample.ts -- provided for GT1 Part 1
 // Task: convert to TypeScript and annotate all variables, parameters, and return types.
 
-type Role = "student" | "admin" | "instructor";
-type Grade = "A" | "B" | "C" | "F";
-
-interface User {
-  id: number;
-  name: string;
-  email: string;
-  role: Role;
-  isActive: boolean;
-  score: number;
-}
+import type { Grade, User } from "../types";
 
 function getUser(id: number): User {
   return {
